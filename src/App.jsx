@@ -7,7 +7,7 @@ function App() {
   const handlesumbit = async () => {
     setIsLoading(true)
     try {
-      const req = await fetch("http://localhost:3000/enhance", {
+      const req = await fetch("https://prompt-enhance-back.vercel.app/enhance", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
